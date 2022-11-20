@@ -1,0 +1,187 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;600;800;900&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' 'Inter' ,sans-serif;
+}
+#logo{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-family: 'Inter';
+    font-size: 70px;
+    text-align: center;
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+
+body{
+    background-color: #BCCEF8;
+}
+
+.hero{
+    display: flex;
+}
+.hero div{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: white;
+}
+.addBox{
+    text-align: center;
+    width: 250px;
+    height: 250px;
+
+}
+
+.btn{
+    width: 120px;
+    height: 120px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius:50%;
+    background-color:whitesmoke;
+    border: dashed 3px;
+    border-color: #BCCEF8;
+}
+.btn i{
+    color: #BCCEF8;
+    font-size: 30px;
+    
+}
+.primary{
+    font-family: 'Inter';
+    font-size: 20px;
+    color: #BCCEF8;
+}
+.box2{
+    width: 250px;
+    height: 250px;
+  
+}
+.box2 .noteTitle{
+    font-family: 'Inter',sans-serif;
+    font-weight: 600;
+    margin-left:10px;
+    padding-top: 10px;
+}
+.box2 .noteDetail{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    margin: 15px;
+    padding: 8px;
+}
+#date{
+    display: inline-block;
+    margin-right: 30%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 14px;
+    
+
+}
+.dots{
+    background-color: white;
+    border-style: none;
+    font-size: 20px;
+    
+}
+.btnEllipsis{
+    text-align: right;
+    
+}
+ 
+/* pop-up Box styling */
+
+ .pop-up{
+position: absolute;
+top: 20%;
+left: 20%;
+max-width: 400px;
+width: 50%;
+transform: (translate(-50%, -50%));
+
+}
+.pop-up {
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.25s ease;
+    
+}
+
+ .pop-up.show { 
+    opacity: 1;
+    pointer-events: auto;
+    
+}
+
+.pop-up .content{
+    background: white;
+    padding: 20px;
+}
+.content header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.content header :hover{
+    color: red;
+}
+.pop-up .space{
+    margin: 5px;
+    padding: 1px;
+    background-color: black;
+    opacity: 20%;
+    
+}
+.content form {
+    margin: 15px 25px 35px;
+}
+.content form :where(input, textarea){
+
+    width: 100%;
+    outline: none;
+    height: 50px;
+    font-size: 17px;
+}
+.content form textarea {
+    height: 150px;
+    resize: none;
+    padding: 8px 15px;
+}
+.popNew{
+    margin: 5px;
+    font-family: 'Poppins';
+    font-size: 25px;
+}
+.popTitle{
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    
+}
+.popDetail{
+    font-family: 'Poppins';
+    font-size: 20px;
+    
+}
+
+.content .popbtn{
+    margin-top: 20px;
+    margin-left: 1px;
+}
+.popbtn{
+    background: #2192FF;
+    font-size: 20px;
+    color: white;
+    border-radius: 7px;
+    border: white;
+    width: 310px;
+    height: 45px;
+    margin-left: 25px;
+    
+}
+
